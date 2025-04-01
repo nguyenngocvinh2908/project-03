@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Sora", sans-serif;
+    font-size: 1.6rem;
+}
+
+/* -----Common----- */
+.main-content {
+    display: block;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    min-width: 104px;
+    height: 44px;
+    border-radius: 22px;
+    background: #2E80CE;
+    color: #FFF;
+    font-family: Sora;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+/* -----Header----- */
+.row-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #10375C;
+}
+
+.row-header .logo {
+    display: flex;
+    gap: 6px;
+}
+
+.header .name {
+    width: 50px;
+    color: #FFF;
+}
+
+.header .name .title {
+    font-family: Sora;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.header .name .sub-title {
+    font-size: 12px;
+    font-weight: 300;
+    text-align: end;
+
+}
+
+/* .header .nav {
+    margin-left: 318px;
+} */
+
+.header .nav ul {
+    display: flex;
+    gap: 42px;
+    position: relative;
+}
+
+.header .nav a {
+    color: #C9D2DA;
+    font-weight: 300;
+}
+
+.header .item:first-child a {
+    color: #FFF;
+    font-weight: 400;
+}
+
+.header .item:first-child::before {
+    position: absolute;
+    left: -12px;
+    top: 5px;
+    content: "";
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: #FFF;
+    border-radius: 50%;
+       
+}
+.header .block-link {
+    display: flex;
+    gap: 28px;
+}
+
+.header .link-1 a {
+    color: #C9D2DA;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.header .link-2 .btn {
+    
+}
+
+
+
+
